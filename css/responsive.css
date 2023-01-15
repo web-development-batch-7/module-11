@@ -1,0 +1,91 @@
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+        padding: 20px 0px;
+    }
+
+    .nav-links {
+        margin-top: 20px;
+    }
+
+
+
+    /* <!-- Header Title Section --> */
+
+    .header .header-description h1 {
+        font-size: 28px;
+    }
+
+    .header .header-description p {
+        padding: 0px;
+    }
+
+    /* <!-- Features Section --> */
+    .feature {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .feature-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 20px;
+    }
+
+    /* <!-- Experience Feature  --> */
+
+    .experience-feature {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .experience-btn {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* <!-- Facts Section --> */
+
+
+
+    .fact-boxs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fact-boxs .box {
+        margin-bottom: 30px;
+    }
+
+
+    /* <!-- Our Sponspors --> */
+    .sponspors-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sponspors-content p {
+        padding: 0px;
+    }
+
+    .sponspors-img img {
+        height: 60px;
+        margin-bottom: 30px
+    }
+
+    .contact-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        color: #FFFFFF;
+    }
+
+    .contact-content p {
+        padding-right: 0px;
+    }
+
+}
